@@ -1,0 +1,46 @@
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{font-family: Arial, Helvetica, sans-serif;}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: rgb(19, 55, 126);
+    color: azure;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+    min-height: 60px;
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+    font-size: 25px;
+
+}
+h1{
+    float: left;
+    
+
+}
+
+header .contenedor{
+    display: table;
+
+}
+
+section{
+    width: 100% ;
+    margin-bottom: 25px;
+}
+
+#Bienvenidos{min-height: 10px;} 
